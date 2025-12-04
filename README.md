@@ -136,4 +136,5 @@ You are responsible for forwarding onActivityResult if you need to retry after p
 MIT License
 Feel free to use, modify, and distribute.
 ## Author
+ini-dev2 - GitHub Profile
 Made with ❤️ for the Unity community
