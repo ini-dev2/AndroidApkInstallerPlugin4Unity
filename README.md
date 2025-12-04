@@ -23,6 +23,9 @@ Ideal for Unity apps that download and install updates or additional modules (e.
 - Android target SDK ≥ 26 (recommended)
 - Properly configured `FileProvider` in your AndroidManifest.xml
 
+## Example unity project
+https://github.com/ini-dev2/UnityAndroidApkInstallerPluginSample
+
 ## Setup
 
 ### 1. Add the plugin to Unity
