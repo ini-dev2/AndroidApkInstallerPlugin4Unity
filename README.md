@@ -69,10 +69,12 @@ Add this inside the `<manifest>` tag (usually in a custom AndroidManifest.xml in
 		</provider>
 
 </application>
+```
 This allows sharing files from external storage, internal files, and cache directories.
 
-### 3. Usage in c#
-C#
+## 3. Usage in c#
+
+```C#
 using UnityEngine;
 
 public class APKUpdater : MonoBehaviour
@@ -111,7 +113,7 @@ public override void onActivityResult(int requestCode, int resultCode, Intent da
         // You may want to retry the install here
     }
 }
-C#
+
 
 Tip: Many developers re-call installApk() after returning from settings if the permission is now granted.
 Example Paths
@@ -121,13 +123,14 @@ string apkPath = Application.persistentDataPath + "/update.apk";
 // Or cache
 string apkPath = Application.temporaryCachePath + "/myapp_update.apk";
 Limitations
+```
 
 On Android 8.0+, user must manually allow "Install unknown apps" for your app
 No built-in download functionality (use UnityWebRequest or other solutions)
 You are responsible for forwarding onActivityResult if you need to retry after permission grant
 
-License
+## License
 MIT License
 Feel free to use, modify, and distribute.
-Author
+## Author
 Made with ❤️ for the Unity community
