@@ -70,6 +70,7 @@ Add this inside the `<manifest>` tag (usually in a custom AndroidManifest.xml in
 
 </application>
 This allows sharing files from external storage, internal files, and cache directories.
+
 Usage in C#
 C#using UnityEngine;
 
