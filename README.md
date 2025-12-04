@@ -136,4 +136,7 @@ MIT License
 Feel free to use, modify, and distribute.
 ## Author
 ini-dev2 - [GitHub Profile](https://github.com/ini-dev2)
+
+## Readme
+ReadMe was created using neural networks, there may be inaccuracies.
 Made with ❤️ for the Unity community
