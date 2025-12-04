@@ -72,7 +72,8 @@ Add this inside the `<manifest>` tag (usually in a custom AndroidManifest.xml in
 This allows sharing files from external storage, internal files, and cache directories.
 
 Usage in C#
-C#using UnityEngine;
+C#
+using UnityEngine;
 
 public class APKUpdater : MonoBehaviour
 {
@@ -110,6 +111,8 @@ public override void onActivityResult(int requestCode, int resultCode, Intent da
         // You may want to retry the install here
     }
 }
+C#
+
 Tip: Many developers re-call installApk() after returning from settings if the permission is now granted.
 Example Paths
 C#// Persistent data path (recommended)
